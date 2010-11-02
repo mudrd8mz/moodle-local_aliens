@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Default alternative texts for Alien emoticon images
+ * Czech alternative texts for Alien emoticon images
  *
  * @package    local
  * @subpackage aliens
@@ -26,5 +26,5 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['sick'] = 'sick';
-$string['unhappy'] = 'unhappy';
+$string['sick'] = 'nemoc';
+$string['unhappy'] = 'smutek';
