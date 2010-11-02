@@ -45,13 +45,20 @@ value from the first column (that is the emoticon text) is used as alternative
 text. For accessibility reasons, we encourage you to provide proper
 alternative texts though.
 
-How to localize or customize the alternative texts for emoticon images
-----------------------------------------------------------------------
+How to localize alternative texts for emoticon images
+-----------------------------------------------------
 
 1. Copy the folder /local/aliens/lang/en/local_aliens.php into
    /local/aliens/lang/XX/local_aliens.php where XX is the language code
-2. Go to Site administration > Language > Language customization and modify
-   the strings in the component you used for emoticon alternative texts
+2. Translate the values of the $string array in the file
+3. Purge all caches in the server administration so the new strings are
+   taken into account
+
+How to customize the alternative texts for emoticon images
+----------------------------------------------------------
+
+Go to Site administration > Language > Language customization and modify the
+strings in the component you used for emoticon alternative texts
 
 Example: if you used ''sad'' and ''core_pix'' as the alternative text for the
 smiley, you want to modify the string ''sad'' in the core component
