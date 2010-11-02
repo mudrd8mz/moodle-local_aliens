@@ -3,7 +3,7 @@ Alien smilies for Moodle
 
 This is an example of local plugin for Moodle 2.0 that provides a custom set
 of emoticons for the Moodle site. The smiley pictures have been released into
-the public domain by its author at
+the public domain by their author at
 
 http://commons.wikimedia.org/wiki/Category:Alien_smiley
 
